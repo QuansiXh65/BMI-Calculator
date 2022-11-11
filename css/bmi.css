@@ -1,0 +1,36 @@
+body{
+    background-color:#81966b;
+}
+
+.h1php{
+    text-align: center;
+    padding: 1vw;
+    border-radius: 1vw;
+
+    margin-right: 38vw;
+    margin-left: 38vw;
+
+    background-color:#4d683c ;
+    color: #d3e9ba;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.phpform{
+    text-align: center;
+    padding: 1vw;
+    padding-left: 18vw;
+    border-radius: 1vw;
+
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+    background-color: #6c8057;
+    color: #ddf0c7;
+
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align: left;
+}

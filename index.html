@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulier</title>
+    <link href="../BMI Calculator/css/index.css" rel="stylesheet">
+</head>
+<body>
+
+<h1 class="h1">BMI Calculator</h1>
+
+    <form action="bmicalc.php" method="post" class="form">
+
+        Wat is je naam:<br>
+        <input type="text" name="naam"><br><br>
+
+        Wat is je gewicht:
+        <input type="number" name="weight"><br><br>
+
+        Wat is je lengte in centimeters?
+        <input type="text" name="height"><br><br>
+
+        Waar ben je geboren?
+        <input type="text" name="birthplace"><br><br>
+
+
+        <br><input type="submit" name="Send">
+
+        <style>
+            input[type="submit"]{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background-color: #4d683c;
+                color: #d3e9ba;
+
+                border-color: #a7bd8e;
+                border-radius: 15px;
+                border-style: solid;
+
+                padding: 8px;
+                margin-top: 5px;
+            }
+            </style>
+
+
+    </form>
+
+</body>
+</html>
